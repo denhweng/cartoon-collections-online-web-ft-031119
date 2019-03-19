@@ -20,7 +20,10 @@ def long_planeteer_calls(array)
   i = 0
   if array.any? {|i| i.length > 4}
     true 
-  else 
+  else
+    false 
+  i += 1 
+end
 end
 
 def find_the_cheese# code an argument here
